@@ -1,5 +1,7 @@
 #EXTM3U
 #EXTINF:0 type="playlist",Live TV
-https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/live-cdn.m3u
+https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/live.m3u
 #EXTINF:0 type="playlist",Movies
 https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/movies.m3u
+#EXTINF:0 type="playlist",Series
+https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/series.m3u
