@@ -1,22 +1,23 @@
-# SS IPTV remote nested playlist proof of concept
+# SS IPTV nested playlist proof of concept
 
-Test for VIDAA / SS IPTV hierarchical playlist navigation using **public demo streams only**.
+Public test assets only. No IPTV provider credentials or subscription links are stored.
 
-No HydraTV account information, password, or private IPTV links are included.
+## Primary link (GitHub Raw)
 
-## SS IPTV external playlist URL
+https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/index.m3u
 
-`https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/index.m3u`
+## Alternate link (jsDelivr CDN)
 
-Fallback raw GitHub URL:
+https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/index-cdn.m3u
 
-`https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/index.m3u`
+The branch `ssiptv-nested-poc` is separate from the repository's default branch.
 
-## Expected on the TV
-* Open **Nested Test**
-* Select **Live TV** -> **Sports (Test Category)** -> one of two demo channels -> play
-* Or select **Movies** -> **Sample Movie - Mux Demo** -> play
+## Expected TV navigation
 
-This validates remote M3U retrieval and nested playlist navigation only. It does not validate HydraTV or its credentials.
+**Nested Test** -> **Live TV** -> **Sports (Test Category)** -> **Sample HD Channel - Mux Demo** -> video.
 
-The root and sub-playlists use the officially documented SS IPTV `#EXTINF:0 type="playlist"` convention.
+**Nested Test** -> **Movies** -> **Sample Movie - Mux Demo** -> video.
+
+## Notes
+
+Only this test is hosted; it does not access HydraTV. Use SS IPTV **External Playlists**, not an individual channel item. Verify remote URL first in a browser, then validate nested navigation on the TV. If raw-hosted nested playlists fail to load, test the jsDelivr alternate.
