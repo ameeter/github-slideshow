@@ -3,3 +3,5 @@
 https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/live.m3u
 #EXTINF:0 type="playlist",Movies
 https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/movies.m3u
+#EXTINF:0 type="playlist",Series
+https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/series.m3u
