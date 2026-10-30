@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="2026 English | أجنبي",Mexico 86 2026
+#EXTINF:0 type="video" group-title="2026 English | أجنبي",Mexico 86 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/723852.mkv
-#EXTINF:-1 group-title="2026 English | أجنبي",500 Miles 2026
+#EXTINF:0 type="video" group-title="2026 English | أجنبي",500 Miles 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/775254.mkv
-#EXTINF:-1 group-title="2026 English | أجنبي",Ali G: Who Iz I? 2026
+#EXTINF:0 type="video" group-title="2026 English | أجنبي",Ali G: Who Iz I? 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/775109.mkv
-#EXTINF:-1 group-title="2026 English | أجنبي",Crawlers 2026
+#EXTINF:0 type="video" group-title="2026 English | أجنبي",Crawlers 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/775104.mkv
-#EXTINF:-1 group-title="2026 English | أجنبي",Drive - The Pretenders 2026
+#EXTINF:0 type="video" group-title="2026 English | أجنبي",Drive - The Pretenders 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/775097.mkv
