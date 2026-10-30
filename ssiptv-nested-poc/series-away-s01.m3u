@@ -1,21 +1,21 @@
 #EXTM3U
-#EXTINF:-1 group-title="Away / Season 1",S01E01 - Go
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E01 - Go
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48312.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E02 - Negative Return
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E02 - Negative Return
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48313.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E03 - Half the Sky
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E03 - Half the Sky
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48314.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E04 - Excellent Chariots
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E04 - Excellent Chariots
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48315.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E05 - Space Dogs
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E05 - Space Dogs
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48316.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E06 - A Little Faith
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E06 - A Little Faith
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48317.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E07 - Goodnight Mars
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E07 - Goodnight Mars
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48318.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E08 - Vital Signs
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E08 - Vital Signs
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48319.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E09 - Spektr
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E09 - Spektr
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48320.mkv
-#EXTINF:-1 group-title="Away / Season 1",S01E10 - Home
+#EXTINF:0 type="video" group-title="Away / Season 1",S01E10 - Home
 http://hydratv.pro:2095/series/YOUR_USERNAME/YOUR_PASSWORD/48321.mkv
