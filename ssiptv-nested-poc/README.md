@@ -1,23 +1,23 @@
-# SS IPTV nested playlist proof of concept
+# HydraTV catalog validation — actual records from IPTV Smarters
 
-Public test assets only. No IPTV provider credentials or subscription links are stored.
+This GitHub test now contains **real HydraTV names and content identifiers**, extracted from the IPTV Smarters Android HAR capture of October 30, 2026. All sample videos were removed.
 
-## Primary link (GitHub Raw)
+## Load on SS IPTV
 
 https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/index.m3u
 
-## Alternate link (jsDelivr CDN)
+### Actual captured subset
 
-https://cdn.jsdelivr.net/gh/ameeter/github-slideshow@ssiptv-nested-poc/ssiptv-nested-poc/index-cdn.m3u
+- Live TV: BeIN Sport 4K, BeIN Sport HD, NEWS (5 real channels per group)
+- Movies: 2026 English, 2025 English, Cinema Hydra (5 real movies per group)
+- Series: NetFlix → Away → Season 1 (10 real episodes)
 
-The branch `ssiptv-nested-poc` is separate from the repository's default branch.
+This is a limited static **40-item validation subset**, not the full provider catalog (11,380 live channels, 32,059 movies, 15,601 series at capture).
 
-## Expected TV navigation
+**CRITICAL SECURITY LIMITATION:** This repository is public. All playback URLs intentionally contain placeholder segments `YOUR_USERNAME/YOUR_PASSWORD` instead of your real credentials. Browsing real category names and titles works; **playing content from these public GitHub playlists will not work without replacing those placeholders in a private copy**. Never commit account credentials, device keys, full HAR files, or personalized stream links to a public branch.
 
-**Nested Test** -> **Live TV** -> **Sports (Test Category)** -> **Sample HD Channel - Mux Demo** -> video.
+To validate video, use a private M3U file with your credentials and upload it through SS IPTV My Playlist rather than publishing it.
 
-**Nested Test** -> **Movies** -> **Sample Movie - Mux Demo** -> video.
+A complete remote playlist with automatic updates and authenticated streams requires a private gateway (not implemented in this PoC).
 
-## Notes
-
-Only this test is hosted; it does not access HydraTV. Use SS IPTV **External Playlists**, not an individual channel item. Verify remote URL first in a browser, then validate nested navigation on the TV. If raw-hosted nested playlists fail to load, test the jsDelivr alternate.
+The provider's API uses `POST player_api.php` to fetch catalogs; direct media URLs under `/live`, `/movie`, `/series` require authentication.
