@@ -1,3 +1,7 @@
 #EXTM3U
-#EXTINF:-1,Sample Movie - Mux Demo
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:0 type="playlist",2026 English | أجنبي (382 movies)
+https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/movies-2026.m3u
+#EXTINF:0 type="playlist",2025 English | أجنبي (674 movies)
+https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/movies-2025.m3u
+#EXTINF:0 type="playlist",Cinema Hydra | سينما هيدرا (42 movies)
+https://raw.githubusercontent.com/ameeter/github-slideshow/ssiptv-nested-poc/ssiptv-nested-poc/movies-cinema.m3u
