@@ -1,5 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="Sports Test",Sample HD Channel - Mux Demo
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
-#EXTINF:-1 group-title="Sports Test",Sample Channel - Apple HLS Demo
-https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8
+#EXTINF:-1 group-title="BeIN Sport 4K",Bein Sport 1 (G) 4k
+http://hydratv.pro:2095/live/YOUR_USERNAME/YOUR_PASSWORD/406796.m3u8
+#EXTINF:-1 group-title="BeIN Sport 4K",Bein Sport 2 (G) 4k
+http://hydratv.pro:2095/live/YOUR_USERNAME/YOUR_PASSWORD/406795.m3u8
+#EXTINF:-1 group-title="BeIN Sport 4K",Bein Sport 3 (G) 4k
+http://hydratv.pro:2095/live/YOUR_USERNAME/YOUR_PASSWORD/406794.m3u8
+#EXTINF:-1 group-title="BeIN Sport 4K",Bein Sport 4 (G) 4k
+http://hydratv.pro:2095/live/YOUR_USERNAME/YOUR_PASSWORD/406793.m3u8
+#EXTINF:-1 group-title="BeIN Sport 4K",Bein Sport 5 (G) 4k
+http://hydratv.pro:2095/live/YOUR_USERNAME/YOUR_PASSWORD/406792.m3u8
