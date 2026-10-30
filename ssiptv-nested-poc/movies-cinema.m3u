@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="Cinema Hydra | سينما هيدرا",The Dog Stars 2026
+#EXTINF:0 type="video" group-title="Cinema Hydra | سينما هيدرا",The Dog Stars 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/770390.mkv
-#EXTINF:-1 group-title="Cinema Hydra | سينما هيدرا",Practical Magic 2 2026
+#EXTINF:0 type="video" group-title="Cinema Hydra | سينما هيدرا",Practical Magic 2 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/765922.mkv
-#EXTINF:-1 group-title="Cinema Hydra | سينما هيدرا",Heart of the Beast 2026
+#EXTINF:0 type="video" group-title="Cinema Hydra | سينما هيدرا",Heart of the Beast 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/765490.mkv
-#EXTINF:-1 group-title="Cinema Hydra | سينما هيدرا",خلي بالك من نفسك 2026
+#EXTINF:0 type="video" group-title="Cinema Hydra | سينما هيدرا",خلي بالك من نفسك 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/760236.mkv
-#EXTINF:-1 group-title="Cinema Hydra | سينما هيدرا",الجواهرجي 2026
+#EXTINF:0 type="video" group-title="Cinema Hydra | سينما هيدرا",الجواهرجي 2026
 http://hydratv.pro:2095/movie/YOUR_USERNAME/YOUR_PASSWORD/750627.mkv
